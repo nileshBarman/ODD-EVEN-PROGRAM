@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Odd Even Program</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+         <h2>Odd/Even Program</h2>
+         <div class="box">
+            <input type="number" id="number" placeholder="Enter a Number">
+            <button onclick="odd_even()">Check</button>
+         </div>
+    </div>
+
+    <script>
+        function odd_even(){
+            var num = document.getElementById("number").value;
+            if(num=='');
+            else if(num%2==0)
+            {
+                alert("Even Number !");
+            } 
+            else
+            {
+                alert("Odd Number !");
+            }
+           
+        }
+    </script>
+</body>
+</html>
